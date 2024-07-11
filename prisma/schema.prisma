@@ -1,0 +1,108 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id               String   @id @default(uuid())
+  name             String
+  email            String
+  password         String
+  role             String
+  presentAddress   String
+  permanentAddress String
+  phoneNumber      String
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+  orders           Order[]
+  // cards            Card[]
+
+  @@map("users")
+}
+
+model Category {
+  id           String @id @default(uuid())
+  categoryName String
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  Products  Product[]
+
+  @@map("categories")
+}
+
+model Product {
+  id          String   @id @default(uuid())
+  productName String
+  description String
+  price       Int
+  image       String?
+  medicineType String
+  quantity Int
+  category    Category @relation(fields: [categoryId], references: [id])
+  categoryId String
+  companyName String
+ options     String[] @default([])
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+
+  orderProducts OrderProduct[]
+  @@map("products")
+}
+
+
+
+model Order {
+  id             String    @id @default(uuid())
+  orderNumber    String    @unique
+  user           User      @relation(fields: [userId], references: [id])
+  userId         String
+  totalPrice     Int
+  orderDate      DateTime  @default(now())
+  status         String
+  shippingAddress String
+  billingAddress  String
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+
+  products       OrderProduct[]
+
+  @@map("orders")
+}
+
+model OrderProduct {
+  id         String   @id @default(uuid())
+  order      Order    @relation(fields: [orderId], references: [id])
+  orderId    String
+  product    Product  @relation(fields: [id], references: [id])
+  productId  String
+  quantity   Int
+  price      Int
+
+  @@map("order_products")
+}
+
+// model Card {
+//   id             String   @id @default(uuid())
+//   cardNumber     String
+//   cardHolderName String
+//   expiryMonth    Int
+//   expiryYear     Int
+//   cvv            Int
+//   user           User     @relation(fields: [userId], references: [id])
+//   userId         String
+//   createdAt      DateTime @default(now())
+//   updatedAt      DateTime @updatedAt
+
+//   @@map("cards")
+// }

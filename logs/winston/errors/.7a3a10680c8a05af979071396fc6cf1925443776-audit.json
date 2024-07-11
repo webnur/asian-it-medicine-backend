@@ -1,0 +1,45 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\projects\\asian-it-task\\asian-it-back-end\\logs\\winston\\errors\\.7a3a10680c8a05af979071396fc6cf1925443776-audit.json",
+    "files": [
+        {
+            "date": 1720601017042,
+            "name": "C:\\projects\\asian-it-task\\asian-it-back-end\\logs\\winston\\errors\\asian-2024-10-07-14-error.log",
+            "hash": "c8b6a532bfdc4eff1b56a8f0ef7092166876d373b095009fabf6b145b07446a8"
+        },
+        {
+            "date": 1720603095907,
+            "name": "C:\\projects\\asian-it-task\\asian-it-back-end\\logs\\winston\\errors\\asian-2024-10-07-15-error.log",
+            "hash": "ef59230aabfe7141a1a38cf47e0dc64b03037594507b04b0a4fba5d6535b290b"
+        },
+        {
+            "date": 1720629518539,
+            "name": "C:\\projects\\asian-it-task\\asian-it-back-end\\logs\\winston\\errors\\asian-2024-10-07-22-error.log",
+            "hash": "b32787c2acbc891af2392ddd0fbb337bcf8f3d8e4d161c262541a5a8b633d453"
+        },
+        {
+            "date": 1720662866054,
+            "name": "C:\\projects\\asian-it-task\\asian-it-back-end\\logs\\winston\\errors\\asian-2024-11-07-07-error.log",
+            "hash": "a458e73d2ab284dc46bee264ab84e64df0c0a810c9a1ecbdaf558854350ae787"
+        },
+        {
+            "date": 1720663293136,
+            "name": "C:\\projects\\asian-it-task\\asian-it-back-end\\logs\\winston\\errors\\asian-2024-11-07-08-error.log",
+            "hash": "676b04e446f195165de4b84c5e76174e28bf25ddb22a79a3ad5138757fe56641"
+        },
+        {
+            "date": 1720667600989,
+            "name": "C:\\projects\\asian-it-task\\asian-it-back-end\\logs\\winston\\errors\\asian-2024-11-07-09-error.log",
+            "hash": "5134666f4bdce926c8da9b49e11f27e31beb7b1cef60df3dc13ba7bc29246059"
+        },
+        {
+            "date": 1720670459473,
+            "name": "C:\\projects\\asian-it-task\\asian-it-back-end\\logs\\winston\\errors\\asian-2024-11-07-10-error.log",
+            "hash": "f78163c78c113b1983a1baa27283b45238e3a651e2d359295b797d0c313819bd"
+        }
+    ],
+    "hashType": "sha256"
+}

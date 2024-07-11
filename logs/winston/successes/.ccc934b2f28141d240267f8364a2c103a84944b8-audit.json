@@ -1,0 +1,45 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\projects\\asian-it-task\\asian-it-back-end\\logs\\winston\\successes\\.ccc934b2f28141d240267f8364a2c103a84944b8-audit.json",
+    "files": [
+        {
+            "date": 1720601017034,
+            "name": "C:\\projects\\asian-it-task\\asian-it-back-end\\logs\\winston\\successes\\asian-2024-10-07-14-success.log",
+            "hash": "3f56d2a203d41f950bdbfd5f4adcc6d602cd30d5df585cbdf69a177d5b339a21"
+        },
+        {
+            "date": 1720603095900,
+            "name": "C:\\projects\\asian-it-task\\asian-it-back-end\\logs\\winston\\successes\\asian-2024-10-07-15-success.log",
+            "hash": "1f3f892374c72a9b571fb2a5623a65cbf5804106494b67f44985989b33f29212"
+        },
+        {
+            "date": 1720629518531,
+            "name": "C:\\projects\\asian-it-task\\asian-it-back-end\\logs\\winston\\successes\\asian-2024-10-07-22-success.log",
+            "hash": "f983b02970af93cb4174a5c4500bea3db7ae365efce00bb26d689dc8ef70d4aa"
+        },
+        {
+            "date": 1720662866044,
+            "name": "C:\\projects\\asian-it-task\\asian-it-back-end\\logs\\winston\\successes\\asian-2024-11-07-07-success.log",
+            "hash": "57d9e3b2549c84a2fb39964251d75a251ecf14dedd7116c2dc2788a53f8724a6"
+        },
+        {
+            "date": 1720663293126,
+            "name": "C:\\projects\\asian-it-task\\asian-it-back-end\\logs\\winston\\successes\\asian-2024-11-07-08-success.log",
+            "hash": "dc887b066de6b182b520dfec4aaa44585d1b4f343a98c65731c9c07adc1c8144"
+        },
+        {
+            "date": 1720667600973,
+            "name": "C:\\projects\\asian-it-task\\asian-it-back-end\\logs\\winston\\successes\\asian-2024-11-07-09-success.log",
+            "hash": "99206fc8b9c0e31455f7af84e72b45a426daebc8d2d556ce112044ca894a4d41"
+        },
+        {
+            "date": 1720670459464,
+            "name": "C:\\projects\\asian-it-task\\asian-it-back-end\\logs\\winston\\successes\\asian-2024-11-07-10-success.log",
+            "hash": "2199dd6478610b9b0739d47448fe1973ec42dccf0e722f216dbb6c3bcf3d3234"
+        }
+    ],
+    "hashType": "sha256"
+}

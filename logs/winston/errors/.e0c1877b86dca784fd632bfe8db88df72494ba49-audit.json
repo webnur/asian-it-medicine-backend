@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\projects\\asian-it-task\\asian-it-back-end\\logs\\winston\\errors\\.e0c1877b86dca784fd632bfe8db88df72494ba49-audit.json",
+    "files": [
+        {
+            "date": 1720600921223,
+            "name": "C:\\projects\\asian-it-task\\asian-it-back-end\\logs\\winston\\errors\\school-2024-10-07-14-error.log",
+            "hash": "8a8850140f3fd0e1e00694f3392759b02fd1346503ffff6eeae93f88945e0ec5"
+        }
+    ],
+    "hashType": "sha256"
+}
